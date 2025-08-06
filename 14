@@ -1,0 +1,20 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro tabuada
+		leia (tabuada)
+		escreva ("~~~~~~~~~~~~~~~~\n")
+		escreva (" 1 x ",tabuada ," = ", tabuada * 1,"\n")
+		escreva (" 2 x ",tabuada ," = ", tabuada * 2,"\n")
+		escreva (" 3 x ",tabuada ," = ", tabuada * 3,"\n")
+		escreva (" 4 x ",tabuada ," = ", tabuada * 4,"\n")
+		escreva (" 5 x ",tabuada ," = ", tabuada * 5,"\n")
+		escreva (" 6 x ",tabuada ," = ", tabuada * 6,"\n")
+		escreva (" 7 x ",tabuada ," = ", tabuada * 7,"\n")
+		escreva (" 8 x ",tabuada ," = ", tabuada * 8,"\n")
+		escreva (" 9 x ",tabuada ," = ", tabuada * 9,"\n")
+		escreva (" 10 x ",tabuada ," = ", tabuada * 10,"\n")
+		escreva ("~~~~~~~~~~~~~~~\n")
+	}
+}
