@@ -1,0 +1,36 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+   inteiro N, i, numero, menor, maior, soma
+
+escreva("Digite a quantidade de números: ")
+leia(N)
+
+escreva("Digite o primeiro número: ")
+leia(numero)
+se(numero < 0 ou numero > 1000){
+      escreva (" invalido ")}
+      senao {
+menor = numero
+maior = numero
+soma = numero
+   para(inteiro n=N - 1; n > 0; n--){
+    soma = soma + numero
+    escreva("Digite o próximo número: ")
+    leia(numero)}
+
+    se (numero < menor) 
+        menor = numero
+        
+    se (numero > maior)
+        maior = numero
+escreva("Menor valor: ", menor)
+escreva("\n Maior valor: ", maior)
+escreva("\n Soma dos valores: ", soma)}
+
+	}
+	
+}
