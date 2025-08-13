@@ -1,0 +1,29 @@
+programa
+{
+
+	funcao inicio()
+	{
+		
+    inteiro numero
+    inteiro pares
+    inteiro impares
+
+
+    pares = 0
+    impares = 0
+
+    para(inteiro i=0; i < 10; i++){
+
+        escreva("Digite um número inteiro: ")
+        leia(numero)
+
+        se (numero % 2 == 0){
+            pares = pares + 1
+	}senao{
+            impares = impares + 1}}
+
+    escreva("Quantidade de números pares: ", pares)
+    escreva(" Quantidade de números ímpares: ", impares)
+
+	}
+}
